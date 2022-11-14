@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Three package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-30 08:45:25+0000\n"
+"PO-Revision-Date: 2022-11-04 17:22:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -425,7 +425,7 @@ msgstr "https://es.wordpress.org"
 #. Author of the theme
 #, gp-priority: low
 msgid "the WordPress team"
-msgstr "El equipo de WordPress"
+msgstr "el equipo de WordPress"
 
 #. Theme URI of the theme
 #, gp-priority: low
