@@ -2,7 +2,11 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development package.
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "PO-Revision-Date: 2022-11-10 18:26:16+0000\n"
+=======
+"PO-Revision-Date: 2022-11-04 13:12:16+0000\n"
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -285,11 +289,14 @@ msgstr "enero"
 msgid "Uncategorized"
 msgstr "Sin categoría"
 
+<<<<<<< HEAD
 #. translators: %s: plugins_loaded
 #: wp-includes/class-wp-user-query.php:784
 msgid "User queries should not be run before the %s hook."
 msgstr "Las consultas de usuarios no deben ejecutarse antes del gancho %s."
 
+=======
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #. translators: %s: The '$value' argument.
 #: wp-includes/class-wp-block-type.php:364
 msgid "The %s argument must be a string or a string array."
@@ -466,22 +473,38 @@ msgid "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s
 msgstr "Conectado como %1$s. <a href=\"%2$s\">Edita tu perfil</a>. <a href=\"%3$s\">¿Salir?</a>"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+<<<<<<< HEAD
 #: wp-includes/class-wp-theme-json.php:3023
+=======
+#: wp-includes/class-wp-theme-json.php:3018
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "%sX-Large"
 msgstr "%sX-Grande"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+<<<<<<< HEAD
 #: wp-includes/class-wp-theme-json.php:2986
 msgid "%sX-Small"
 msgstr "%sX-Pequeño"
 
 #: wp-includes/class-wp-theme-json.php:2952
+=======
+#: wp-includes/class-wp-theme-json.php:2981
+msgid "%sX-Small"
+msgstr "%sX-Pequeño"
+
+#: wp-includes/class-wp-theme-json.php:2947
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Some of the theme.json settings.spacing.spacingScale values are invalid"
 msgstr "Algunos de los valores «theme.json settings.spacing.spacingScale» no son válidos"
 
 #. translators: 1: theme.json, 2: Value name, 3: Value path, 4: Another value
 #. name.
+<<<<<<< HEAD
 #: wp-includes/class-wp-theme-json.php:1760
+=======
+#: wp-includes/class-wp-theme-json.php:1755
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Your %1$s file uses a dynamic value (%2$s) for the path at %3$s. However, the value at %3$s is also a dynamic value (pointing to %4$s) and pointing to another dynamic value is not supported. Please update %3$s to point directly to %4$s."
 msgstr "Tu archivo %1$s utiliza un valor dinámico (%2$s) para la ruta de %3$s. Sin embargo, el valor en %3$s también es un valor dinámico (que apunta a %4$s) y no está permitido apuntar a otro valor dinámico. Por favor, actualiza %3$s para que apunte directamente a %4$s."
 
@@ -1090,8 +1113,13 @@ msgstr "Usar el editor del sitio"
 #. translators: 1: Link to Site Editor documentation on HelpHub, 2: HTML
 #. button.
 #: wp-includes/script-loader.php:1290
+<<<<<<< HEAD
 msgid "Hurray! Your theme supports site editing with blocks. <a href=\"%1$s\">Tell me more</a>. %2$s"
 msgstr "¡Bien! Tu tema es compatible con la edición del sitio con bloques. <a href=\"%1$s\">Cuéntame más</a>. %2$s"
+=======
+msgid "Hurray! Your theme supports Full Site Editing with blocks. <a href=\"%1$s\">Tell me more</a>. %2$s"
+msgstr "¡Bien! Tu tema es compatible con la edición completa del sitio con bloques. <a href=\"%1$s\">Cuéntame más</a>. %2$s"
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 
 #: wp-includes/script-loader.php:1291 wp-includes/js/dist/edit-site.js:5665
 msgid "https://wordpress.org/support/article/site-editor/"
@@ -1846,12 +1874,20 @@ msgstr "No se ha podido sanear la opción %1$s. Código de error: %2$s"
 
 #. translators: %s: URL to the themes page (also it activates the theme).
 #: wp-includes/customize/class-wp-customize-theme-control.php:267
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1018
+=======
+#: wp-admin/includes/theme.php:1017
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "However, you can still <a href=\"%s\">activate this theme</a>, and use the Site Editor to customize it."
 msgstr "Sin embargo, aún puedes <a href=\"%s\">activar este tema</a> y usar el editor del sitio para personalizarlo."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:260
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1012
+=======
+#: wp-admin/includes/theme.php:1011
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "This theme doesn't support Customizer."
 msgstr "Este tema no es compatible con el personalizador."
 
@@ -2990,8 +3026,13 @@ msgstr "Teclea / para elegir un bloque"
 
 #: wp-includes/js/dist/block-editor.js:39703
 #: wp-includes/js/dist/edit-site.js:8237 wp-includes/js/dist/edit-site.js:10566
+<<<<<<< HEAD
 #: wp-admin/includes/class-wp-screen.php:1207 wp-admin/includes/theme.php:343
 #: wp-admin/includes/theme.php:379 wp-admin/index.php:70
+=======
+#: wp-admin/includes/class-wp-screen.php:1207 wp-admin/includes/theme.php:342
+#: wp-admin/includes/theme.php:378 wp-admin/index.php:70
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Layout"
 msgstr "Estructura"
 
@@ -4474,34 +4515,54 @@ msgstr "La constante %s ya no es compatible."
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:161
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:926 wp-admin/includes/update.php:778
+=======
+#: wp-admin/includes/theme.php:925 wp-admin/includes/update.php:778
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/themes.php:453 wp-admin/themes.php:808 wp-admin/themes.php:1087
 msgid "There is a new version of %s available, but it does not work with your version of PHP."
 msgstr "Hay disponible una nueva versión de %s, pero no funciona con tu versión de PHP."
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:146
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:911 wp-admin/includes/update.php:765
+=======
+#: wp-admin/includes/theme.php:910 wp-admin/includes/update.php:765
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/themes.php:440 wp-admin/themes.php:793 wp-admin/themes.php:1072
 msgid "There is a new version of %s available, but it does not work with your version of WordPress."
 msgstr "Hay disponible una nueva versión de %s, pero no funciona con tu versión de WordPress."
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:116
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:881 wp-admin/includes/update.php:737
+=======
+#: wp-admin/includes/theme.php:880 wp-admin/includes/update.php:737
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/themes.php:412 wp-admin/themes.php:763 wp-admin/themes.php:1042
 msgid "There is a new version of %s available, but it does not work with your versions of WordPress and PHP."
 msgstr "Hay disponible una nueva versión de %s, pero no funciona con tus versiones de WordPress y PHP."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:220
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:997 wp-admin/theme-install.php:355
+=======
+#: wp-admin/includes/theme.php:996 wp-admin/theme-install.php:355
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:545 wp-admin/themes.php:507
 #: wp-admin/themes.php:866 wp-admin/themes.php:1014
 msgid "This theme does not work with your version of PHP."
 msgstr "Este tema no funciona con tu versión de PHP."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:209
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:986 wp-admin/theme-install.php:344
+=======
+#: wp-admin/includes/theme.php:985 wp-admin/theme-install.php:344
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:534 wp-admin/themes.php:498
 #: wp-admin/themes.php:855 wp-admin/themes.php:1003
 msgid "This theme does not work with your version of WordPress."
@@ -4516,9 +4577,15 @@ msgstr "Este tema no funciona con tu versión de WordPress."
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:726
 #: wp-admin/includes/class-wp-plugins-list-table.php:1291
 #: wp-admin/includes/class-wp-plugins-list-table.php:1310
+<<<<<<< HEAD
 #: wp-admin/includes/plugin.php:1136 wp-admin/includes/theme.php:901
 #: wp-admin/includes/theme.php:932 wp-admin/includes/theme.php:978
 #: wp-admin/includes/theme.php:1001 wp-admin/includes/update-core.php:1058
+=======
+#: wp-admin/includes/plugin.php:1136 wp-admin/includes/theme.php:900
+#: wp-admin/includes/theme.php:931 wp-admin/includes/theme.php:977
+#: wp-admin/includes/theme.php:1000 wp-admin/includes/update-core.php:1058
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/update.php:757 wp-admin/includes/update.php:784
 #: wp-admin/install.php:245 wp-admin/theme-install.php:336
 #: wp-admin/theme-install.php:359 wp-admin/theme-install.php:526
@@ -4542,8 +4609,13 @@ msgstr "<a href=\"%s\">Aprende más sobre cómo actualizar PHP</a>."
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:717
 #: wp-admin/includes/class-wp-plugins-list-table.php:1285
 #: wp-admin/includes/class-wp-plugins-list-table.php:1301
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:895 wp-admin/includes/theme.php:917
 #: wp-admin/includes/theme.php:972 wp-admin/includes/theme.php:990
+=======
+#: wp-admin/includes/theme.php:894 wp-admin/includes/theme.php:916
+#: wp-admin/includes/theme.php:971 wp-admin/includes/theme.php:989
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/update.php:751 wp-admin/includes/update.php:771
 #: wp-admin/theme-install.php:330 wp-admin/theme-install.php:348
 #: wp-admin/theme-install.php:520 wp-admin/theme-install.php:538
@@ -4560,7 +4632,11 @@ msgstr "<a href=\"%s\">Por favor, actualiza WordPress</a>."
 #: wp-includes/customize/class-wp-customize-theme-control.php:187
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:693
 #: wp-admin/includes/class-wp-plugins-list-table.php:1277
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:887 wp-admin/includes/theme.php:964
+=======
+#: wp-admin/includes/theme.php:886 wp-admin/includes/theme.php:963
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/update.php:743 wp-admin/theme-install.php:322
 #: wp-admin/theme-install.php:512 wp-admin/themes.php:418
 #: wp-admin/themes.php:478 wp-admin/themes.php:769 wp-admin/themes.php:833
@@ -4570,7 +4646,11 @@ msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">l
 msgstr "<a href=\"%1$s\">Por favor, actualiza WordPress</a> y luego <a href=\"%2$s\">aprende más sobre cómo actualizar PHP</a>."
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:183
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:960 wp-admin/theme-install.php:318
+=======
+#: wp-admin/includes/theme.php:959 wp-admin/theme-install.php:318
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:508 wp-admin/themes.php:474
 #: wp-admin/themes.php:829 wp-admin/themes.php:977
 msgid "This theme does not work with your versions of WordPress and PHP."
@@ -5548,7 +5628,11 @@ msgid "https://wordpress.org/support/article/css/"
 msgstr "https://es.wordpress.org/support/article/excerpt/"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Small.
+<<<<<<< HEAD
 #: wp-includes/class-wp-theme-json.php:2986
+=======
+#: wp-includes/class-wp-theme-json.php:2981
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-includes/js/dist/block-library.js:48181
 msgid "Small"
 msgstr "Pequeño"
@@ -6249,8 +6333,13 @@ msgstr "Restaurar de la papelera"
 #: wp-admin/includes/class-wp-automatic-updater.php:1258
 #: wp-admin/includes/plugin-install.php:181
 #: wp-admin/includes/plugin-install.php:196
+<<<<<<< HEAD
 #: wp-admin/includes/plugin-install.php:211 wp-admin/includes/theme.php:566
 #: wp-admin/includes/theme.php:580 wp-admin/includes/theme.php:595
+=======
+#: wp-admin/includes/plugin-install.php:211 wp-admin/includes/theme.php:565
+#: wp-admin/includes/theme.php:579 wp-admin/includes/theme.php:594
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/translation-install.php:66
 #: wp-admin/includes/translation-install.php:80
 #: wp-admin/includes/translation-install.php:92
@@ -6800,7 +6889,11 @@ msgstr "Elemento añadido."
 #: wp-admin/includes/dashboard.php:1291 wp-admin/includes/dashboard.php:1303
 #: wp-admin/includes/dashboard.php:1316 wp-admin/includes/dashboard.php:1886
 #: wp-admin/includes/media.php:3223 wp-admin/includes/meta-boxes.php:80
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:860
+=======
+#: wp-admin/includes/theme.php:859
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "(opens in a new tab)"
 msgstr "(abre en una nueva pestaña)"
 
@@ -8164,7 +8257,11 @@ msgstr "Buscar temas en WordPress.org"
 
 #: wp-includes/customize/class-wp-customize-theme-control.php:291
 #: wp-includes/customize/class-wp-customize-theme-control.php:293
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1062 wp-admin/includes/theme.php:1065
+=======
+#: wp-admin/includes/theme.php:1061 wp-admin/includes/theme.php:1064
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Install &amp; Preview"
 msgstr "Instalar y previsualizar"
 
@@ -10846,7 +10943,11 @@ msgstr "Términos inexistentes."
 
 #. translators: %s: Theme name.
 #: wp-includes/customize/class-wp-customize-theme-control.php:252
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1047 wp-admin/theme-install.php:385
+=======
+#: wp-admin/includes/theme.php:1046 wp-admin/theme-install.php:385
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:450 wp-admin/themes.php:554
 #: wp-admin/themes.php:914 wp-admin/themes.php:1135 wp-admin/js/updates.js:1415
 msgctxt "theme"
@@ -12726,7 +12827,11 @@ msgstr "Texto del enlace"
 #: wp-admin/includes/class-theme-installer-skin.php:131
 #: wp-admin/includes/class-theme-upgrader-skin.php:103
 #: wp-admin/includes/class-wp-themes-list-table.php:222
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1054 wp-admin/includes/theme.php:1056
+=======
+#: wp-admin/includes/theme.php:1053 wp-admin/includes/theme.php:1055
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:397 wp-admin/theme-install.php:414
 #: wp-admin/themes.php:562 wp-admin/themes.php:571 wp-admin/themes.php:922
 #: wp-admin/themes.php:931 wp-admin/themes.php:1141 wp-admin/themes.php:1152
@@ -13190,7 +13295,11 @@ msgstr "<strong>Error</strong>: no se ha podido guardar el comentario. Por favor
 
 #: wp-includes/update.php:208 wp-includes/update.php:446
 #: wp-includes/update.php:727 wp-admin/includes/plugin-install.php:182
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:567 wp-admin/includes/translation-install.php:67
+=======
+#: wp-admin/includes/theme.php:566 wp-admin/includes/translation-install.php:67
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/update.php:142
 msgid "(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)"
 msgstr "(WordPress no ha podido establecer una conexión segura con WordPress.org. Por favor, contacta con el administrador de tu servidor)."
@@ -14161,8 +14270,13 @@ msgstr "Una lista de las páginas de tu sitio."
 #: wp-includes/update.php:206 wp-includes/update.php:444
 #: wp-includes/update.php:725 wp-admin/includes/plugin-install.php:180
 #: wp-admin/includes/plugin-install.php:195
+<<<<<<< HEAD
 #: wp-admin/includes/plugin-install.php:210 wp-admin/includes/theme.php:565
 #: wp-admin/includes/theme.php:579 wp-admin/includes/theme.php:594
+=======
+#: wp-admin/includes/plugin-install.php:210 wp-admin/includes/theme.php:564
+#: wp-admin/includes/theme.php:578 wp-admin/includes/theme.php:593
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/translation-install.php:65
 #: wp-admin/includes/translation-install.php:79
 #: wp-admin/includes/translation-install.php:91
@@ -14582,7 +14696,11 @@ msgid "Attachment Details"
 msgstr "Detalles del adjunto"
 
 #. translators: %s: Digit to indicate multiple of sizing, eg. 2X-Large.
+<<<<<<< HEAD
 #: wp-includes/block-editor.php:172 wp-includes/class-wp-theme-json.php:3023
+=======
+#: wp-includes/block-editor.php:167 wp-includes/class-wp-theme-json.php:3018
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-includes/media-template.php:860 wp-includes/media-template.php:940
 #: wp-includes/media-template.php:1131 wp-includes/media.php:4204
 #: wp-includes/js/dist/block-editor.js:3709
@@ -14894,7 +15012,11 @@ msgstr "Seleccionar un archivo"
 #: wp-includes/customize/class-wp-customize-theme-control.php:240
 #: wp-admin/customize.php:206
 #: wp-admin/includes/class-theme-upgrader-skin.php:92
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1036 wp-admin/menu.php:232
+=======
+#: wp-admin/includes/theme.php:1035 wp-admin/menu.php:232
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:400 wp-admin/themes.php:549
 #: wp-admin/themes.php:908 wp-admin/themes.php:1128
 msgid "Customize"
@@ -18612,7 +18734,11 @@ msgstr "Imágenes"
 #: wp-admin/includes/class-wp-theme-install-list-table.php:370
 #: wp-admin/includes/class-wp-theme-install-list-table.php:502
 #: wp-admin/includes/class-wp-themes-list-table.php:262
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:846 wp-admin/theme-install.php:373
+=======
+#: wp-admin/includes/theme.php:845 wp-admin/theme-install.php:373
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:474 wp-admin/themes.php:529
 #: wp-admin/themes.php:888 wp-admin/themes.php:969
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:718
@@ -18763,7 +18889,11 @@ msgstr "Alineación"
 msgid "Size"
 msgstr "Tamaño"
 
+<<<<<<< HEAD
 #: wp-includes/block-editor.php:173 wp-includes/media-template.php:861
+=======
+#: wp-includes/block-editor.php:168 wp-includes/media-template.php:861
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-includes/media-template.php:941 wp-includes/media-template.php:1132
 #: wp-includes/media.php:4205 wp-includes/js/dist/block-editor.js:3712
 #: wp-admin/includes/class-custom-background.php:608
@@ -18771,7 +18901,11 @@ msgstr "Tamaño"
 msgid "Full Size"
 msgstr "Tamaño completo"
 
+<<<<<<< HEAD
 #: wp-includes/block-editor.php:171 wp-includes/class-wp-theme-json.php:3005
+=======
+#: wp-includes/block-editor.php:166 wp-includes/class-wp-theme-json.php:3000
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-includes/media-template.php:859 wp-includes/media-template.php:939
 #: wp-includes/media-template.php:1130 wp-includes/media.php:4203
 #: wp-includes/js/dist/block-editor.js:3706
@@ -18836,7 +18970,11 @@ msgstr "La biblioteca de imágenes GD no está instalada."
 msgid "File &#8220;%s&#8221; does not exist?"
 msgstr "¿El archivo «%s» no existe?"
 
+<<<<<<< HEAD
 #: wp-includes/block-editor.php:170 wp-includes/media-template.php:858
+=======
+#: wp-includes/block-editor.php:165 wp-includes/media-template.php:858
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-includes/media-template.php:938 wp-includes/media-template.php:1129
 #: wp-includes/media.php:4202 wp-includes/js/dist/block-editor.js:3703
 #: wp-admin/includes/class-custom-background.php:605
@@ -19160,7 +19298,11 @@ msgstr "Editar la categoría del enlace"
 #: wp-admin/includes/class-wp-users-list-table.php:280
 #: wp-admin/includes/class-wp-users-list-table.php:476
 #: wp-admin/includes/media.php:1725 wp-admin/includes/meta-boxes.php:1082
+<<<<<<< HEAD
 #: wp-admin/includes/template.php:651 wp-admin/includes/theme.php:1040
+=======
+#: wp-admin/includes/template.php:651 wp-admin/includes/theme.php:1039
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/widgets.php:295 wp-admin/themes.php:651
 #: wp-admin/themes.php:1162 wp-admin/widgets-form.php:335
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:285
@@ -19464,7 +19606,11 @@ msgstr "¡Ahora tu cuenta está activada!"
 #: wp-admin/includes/class-wp-plugins-list-table.php:599
 #: wp-admin/includes/class-wp-plugins-list-table.php:867
 #: wp-admin/includes/class-wp-themes-list-table.php:215
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1050 wp-admin/theme-install.php:389
+=======
+#: wp-admin/includes/theme.php:1049 wp-admin/theme-install.php:389
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:453 wp-admin/themes.php:556
 #: wp-admin/themes.php:916 wp-admin/themes.php:1138 wp-admin/js/updates.js:766
 #: wp-admin/js/updates.js:1419

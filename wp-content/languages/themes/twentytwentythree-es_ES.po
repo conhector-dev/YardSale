@@ -2,7 +2,11 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Three package.
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "PO-Revision-Date: 2022-11-04 17:22:53+0000\n"
+=======
+"PO-Revision-Date: 2022-10-30 08:45:25+0000\n"
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -425,9 +429,17 @@ msgstr "https://es.wordpress.org"
 #. Author of the theme
 #, gp-priority: low
 msgid "the WordPress team"
+<<<<<<< HEAD
 msgstr "el equipo de WordPress"
+=======
+msgstr "El equipo de WordPress"
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 
 #. Theme URI of the theme
 #, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwentythree"
+<<<<<<< HEAD
 msgstr "https://es.wordpress.org/themes/twentytwentythree"
+=======
+msgstr "https://es.wordpress.org/themes/twentytwentythree"
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd

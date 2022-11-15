@@ -2,7 +2,11 @@
 # This file is distributed under the same license as the WordPress - 6.1.x - Development - Administration package.
 msgid ""
 msgstr ""
+<<<<<<< HEAD
 "PO-Revision-Date: 2022-11-10 18:26:21+0000\n"
+=======
+"PO-Revision-Date: 2022-10-18 17:19:26+0000\n"
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -43,6 +47,7 @@ msgstr "Europa/Madrid"
 msgid "Continue"
 msgstr "Continuar"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:335
 msgid "Site Editor"
 msgstr "Editor del sitio"
@@ -254,6 +259,215 @@ msgstr "Mejoras en los ajustes de diseño y visualización del documento"
 msgid "<a href=\"%s\">New fallback options</a> in the navigation block mean you can edit the menu that’s open; no searching needed. Plus, the controls for choosing and working on menus have their own place in the block settings. The mobile menu system also gets an upgrade with new features, including different icon options, to make the menu yours."
 msgstr "<a href=\"%s\">Las nuevas opciones de recuperación</a> en el bloque de navegación permiten editar el menú abierto, sin necesidad de buscarlo. Además, los controles para elegir y trabajar en los menús tienen su propio lugar en los ajustes del bloque. El sistema de menús para móviles también se actualiza con nuevas características, incluyendo diferentes opciones de iconos, para hacer que el menú sea tuyo."
 
+=======
+#. translators: 1: Learn WordPress link.
+#: wp-admin/about.php:518
+msgid "Explore <a href=\"%s\">learn.wordpress.org</a> for tutorial videos, online workshops, courses, and lesson plans for Meetup organizers, including new features in WordPress."
+msgstr "Busca en <a href=\"%s\">learn.wordpress.org</a> tutoriales en vídeo, talleres online, cursos y planes de lecciones para organizadores de Meetup, incluidas las nuevas características de WordPress."
+
+#: wp-admin/about.php:456
+msgid "https://wordpress.org/plugins/performance-lab/"
+msgstr "https://es.wordpress.org/plugins/performance-lab/"
+
+#. translators: %s: Link to fluid typography demo.
+#: wp-admin/about.php:185
+msgid "<a href=\"%s\">Fluid typography</a> lets you define font sizes that adapt for easy reading in any screen size."
+msgstr "<a href=\"%s\">La tipografía fluida</a> te permite definir tamaños de fuente que se adaptan para una lectura fácil en cualquier tamaño de pantalla."
+
+#: wp-admin/about.php:180
+msgid "More responsive text with fluid typography"
+msgstr "Textos más adaptables con la tipografía fluida"
+
+#: wp-admin/about.php:478
+msgid "Combine it with block locking options for even more advanced control over your blocks."
+msgstr "Combínalo con las opciones de bloqueo de bloques para tener aún más control avanzado de tus bloques."
+
+#. translators: %s: Link to content locking dev note.
+#: wp-admin/about.php:473
+msgid "Thanks to <a href=\"%s\">content-only editing settings</a>, layouts can be locked within container blocks. In a content-only block, its children are invisible to the List View and entirely uneditable. So you control the layout while your writers can focus on the content."
+msgstr "Gracias a los <a href=\"%s\">ajustes de edición solo de contenido</a> se pueden bloquear diseños dentro de bloques contenedores. En un bloque solo de contenido, sus hijos son invisibles en la vista de lista y no se pueden editar en absoluto. Así controlas el diseño mientras que tus escritores pueden centrarse en el contenido."
+
+#: wp-admin/about.php:468
+msgid "Content-only editing support for container blocks"
+msgstr "Edición solo de contenido en bloques contenedores"
+
+#. translators: %s: Link to install Performance Lab plugin if permitted,
+#. otherwise link to plugin on WordPress.org.
+#: wp-admin/about.php:455
+msgid "Be among the first to get the latest improvements by adding the <a href=\"%s\">Performance Lab plugin</a> to your WordPress test site or sandbox."
+msgstr "Sé de los primeros en obtener las últimas mejoras añadiendo el plugin <a href=\"%s\">Performance Lab</a> a tu sitio de pruebas o salvaguarda de WordPress."
+
+#. translators: 1: REST API performance dev note, 2: Multisite performance dev
+#. note, 3: code-formatted "WP_Query" linked to dev note, 4: Block registration
+#. performance dev note, 5: Site health checks dev note; 6: code-formatted
+#. "async", 7: Performance field guide.
+#: wp-admin/about.php:440
+msgid "WordPress 6.1 resolved more than 25 tickets dedicated to enhancing performance. From the  <a href=\"%1$s\">REST API</a> to <a href=\"%2$s\">multisite</a>, %3$s to <a href=\"%4$s\">core block registration</a>, and <a href=\"%5$s\">new Site Health checks</a> to the addition of the %6$s attribute to images, there are performance improvements for every type of site. A full breakdown can be found in the <a href=\"%7$s\">Performance Field Guide</a>."
+msgstr "WordPress 6.1 solucionó más de 25 tiques dedicados a mejorar el rendimiento. Desde la  <a href=\"%1$s\">API REST</a> a <a href=\"%2$s\">multisitio</a>, %3$s para <a href=\"%4$s\">registrar bloques del núcleo</a>, y <a href=\"%5$s\">nuevas comprobaciones de salud del sitio</a> a añadir el atributo %6$s a las imágenes, hay mejoras de rendimiento para cada tipo de sitio. Se puede encontrar un desglose completo en la <a href=\"%7$s\">guía de campo de rendimiento</a>."
+
+#: wp-admin/about.php:435
+msgid "Performance highlights"
+msgstr "Lo más destacado en rendimiento"
+
+#. translators: %s: Link to spacing presets dev note.
+#: wp-admin/about.php:419
+msgid "Save time and help avoid hard-coding a values into a theme with <a href=\"%s\">preset margin and padding values for multiple blocks</a>."
+msgstr "Ahorra tiempo y ayuda a evitar tener que escribir código de valores en el tema con <a href=\"%s\">valores de margen y relleno preestablecidos para múltiples bloques</a>."
+
+#: wp-admin/about.php:414
+msgid "Spacing presets for faster, consistent design"
+msgstr "Preajustes de espaciado para un diseño más rápido y consistente"
+
+#. translators: %s: Link to theme.json filters dev note.
+#: wp-admin/about.php:401
+msgid "<a href=\"%s\">Leverage filters</a> in the Styles sidebar to control settings at all four levels of your site—core, theme, user, or block, from less to more specific."
+msgstr "<a href=\"%s\">Saca partido a los filtros</a> de la barra lateral de estilos para controlar los ajustes en los cuatro niveles de tu sitio: núcleo, tema, usuario o bloque, de menos a más específico."
+
+#: wp-admin/about.php:396
+msgid "Filters for all your styles"
+msgstr "Filtros para todos tus estilos"
+
+#. translators: %s: Link to query loop dev note.
+#: wp-admin/about.php:379
+msgid "<a href=\"%s\">New filters</a> let Query Block variations support custom queries for more powerful variations and advanced hierarchical post types filtering options."
+msgstr "<a href=\"%s\">Nuevos filtros</a> que permiten que las variaciones del bloque de consultas admitan consultas de variaciones más potentes y opciones avanzadas de filtrado jerárquico de tipos de contenido."
+
+#: wp-admin/about.php:374
+msgid "Expanded support for Query Loop blocks"
+msgstr "Ampliada la compatibilidad de bloques de consulta de contenidos"
+
+#. translators: 1: Link to block-based template parts in classic themes dev
+#. note, 2: Folder name.
+#: wp-admin/about.php:360
+msgid "<a href=\"%1$s\">Block template parts can now be defined in classic themes</a> by adding the appropriate HTML files to the %2$s directory at the root of the theme."
+msgstr "<a href=\"%1$s\">Las partes de plantilla con bloques pueden ahora definirse en los temas clásicos</a> añadiendo los archivos HTML apropiados al directorio %2$s en la carpeta raíz del tema."
+
+#: wp-admin/about.php:355
+msgid "Block template parts in classic themes"
+msgstr "Partes de plantillas de bloques en temas clásicos"
+
+#. translators: %s: Link to layout support refactor dev note.
+#: wp-admin/about.php:338
+msgid "The default content dimensions provided by themes can now be overridden in the Styles Sidebar, giving site builders better control over full-width content. Developers have <a href=\"%s\">fine-grained control over these controls</a>."
+msgstr "Las dimensiones por defecto del contenido facilitadas por los temas pueden ahora anularse en la barra lateral de estilos, lo que ofrece a los creadores de sitios un mejor control sobre el contenido de ancho completo. Los desarrolladores tienen <a href=\"%s\">un control muy preciso sobre estos controles</a>."
+
+#: wp-admin/about.php:333
+msgid "Continued evolution of layout options"
+msgstr "Evolución continua de las opciones de diseño"
+
+#. translators: %s: Link to styling elements dev note.
+#: wp-admin/about.php:320
+msgid "Updates include <a href=\"%s\">styling elements</a> like buttons, citations, and links globally; controlling hover, active, and focus states for links using theme.json (not available to control in the interface yet); and customizing outline support for blocks and elements, among other features."
+msgstr "Las actualizaciones incluyen <a href=\"%s\">elementos de estilo</a> como botones, citas y enlaces de manera global; controla el estado de hover, active y focus de los enlaces usando theme.json (no disponible todavía para controlarlo en la interfaz); y personalizar la compatibilidad con el contorno de bloques y elementos, entre otras características."
+
+#: wp-admin/about.php:315
+msgid "Updated interface options and features"
+msgstr "Actualización de la interfaz de opciones y características"
+
+#: wp-admin/about.php:302
+msgid "A new modal design offers a background blur effect, making it easier to focus on the task at hand."
+msgstr "Un nuevo diseño emergente ofrece un efecto de desenfoque del fondo, facilitando centrarse en la tarea en curso."
+
+#. translators: %s: "General Settings" admin page title, linked to the page if
+#. the user can edit options.
+#: wp-admin/about.php:297
+msgid "The site tagline is empty by default in new sites but can be modified in %s."
+msgstr "La descripción corta del sitio está vacía por defecto en los sitios nuevos, pero puede modificarse en los %s."
+
+#: wp-admin/about.php:292
+msgid "6.1 includes a new time-to-read feature showing content authors the approximate time-to-read values for pages, posts, and custom post types."
+msgstr "La versión 6.1 incluye una nueva característica de tiempo de lectura que muestra a los autores de contenido los valores aproximados de tiempo de lectura de páginas, entradas y tipos de contenido personalizados."
+
+#: wp-admin/about.php:291
+msgid "Other notes of interest"
+msgstr "Otras notas de interés"
+
+#. translators: %s: Link to accessibility improvements dev note.
+#: wp-admin/about.php:278
+msgid "More than 40 improvements in accessibility include resolving focus loss problems in the editor, improving form labels and audible messages, making alternative text easier to edit, and fixing the sub-menu overlap in the expanded admin side navigation at smaller screen sizes and higher zoom levels. Learn more about <a href=\"%s\">accessibility in WordPress</a>."
+msgstr "Más de 40 mejoras en la accesibilidad que incluyen la resolución de problemas de pérdida de enfoque en el editor, la mejora de las etiquetas de los formularios y los mensajes audibles, facilitar la edición de texto alternativo y solucionar la superposición de submenús en la navegación lateral de la administración ampliada en tamaños de pantalla más pequeños y niveles de zoom más altos. Aprende más sobre <a href=\"%s\">accesibilidad en WordPress</a>."
+
+#: wp-admin/about.php:273
+msgid "Improved admin and editor accessibility"
+msgstr "Mejoras en la accesibilidad de la administracion y el editor"
+
+#. translators: %s: Link style engine dev note.
+#: wp-admin/about.php:257
+msgid "The CSS rules for margin, padding, typography, colors, and borders within the <a href=\"%s\">styles engine</a> are now all in one place, reducing time spent on layout-specific tasks and helps to generate semantic class names."
+msgstr "Las reglas CSS de los márgenes, rellenos, tipografías, colores y bordes del <a href=\"%s\">motor de estilos</a> ahora están en un único lugar, reduciendo así el tiempo empleado en tareas específicas de diseño y ayudando a generar nombres de clases semánticos."
+
+#: wp-admin/about.php:252
+msgid "A streamlined style system"
+msgstr "Un sistema de estilos optimizado"
+
+#. translators: %s: Link to block editor preferences dev note.
+#: wp-admin/about.php:239
+msgid "Site Editor settings are now <a href=\"%s\">persistent for each user</a>. This means your settings will now be consistent across browsers and devices."
+msgstr "Los ajustes del editor del sitio ahora son <a href=\"%s\">persistentes para cada usuario</a>. Esto significa que tus ajustes ahora serán consistentes en los distintos navegadores y dispositivos."
+
+#: wp-admin/about.php:234
+msgid "Keep your Site Editor settings for later"
+msgstr "Guarda tus ajustes del editor para más tarde"
+
+#: wp-admin/about.php:219
+msgid "https://wordpress.org/themes/tags/full-site-editing/"
+msgstr "https://wordpress.org/themes/tags/full-site-editing/"
+
+#. translators: %s: Link to "full site editing" themes on WordPress.org.
+#: wp-admin/about.php:218
+msgid "The Themes Directory has <a href=\"%s\">a filter for block themes</a>, and a pattern preview gives a better sense of what the theme might look like while exploring different themes and patterns."
+msgstr "El directorio de temas tiene <a href=\"%s\">un filtro para temas de bloques</a>, y una vista previa de patrones que, cuando se revisan distintos temas y patrones, ofrece una mejor idea de cómo se vería el tema."
+
+#: wp-admin/about.php:213
+msgid "Find block themes faster"
+msgstr "Encuentra temas de bloques más rápido"
+
+#: wp-admin/about.php:204
+msgid "In WordPress 6.0, when you created a new page, you would see suggested patterns so you did not have to start with a blank page. In 6.1, you will also see the starter patterns modal when you create a new instance of any post type."
+msgstr "En WordPress 6.0, cuando creabas una nueva página podrías ver patrones sugeridos para que no tuvieses que empezar con una página en blanco. En la versión 6.1 también verás una ventana emergente de patrones de inicio cuando crees una nueva instancia de cualquier tipo de contenido."
+
+#: wp-admin/about.php:203
+msgid "Add starter patterns to any post type"
+msgstr "Añade patrones de inicio a cualquier tipo de contenido"
+
+#: wp-admin/about.php:174
+msgid "The List and Quote blocks now support inner blocks, allowing for more flexible and rich compositions like adding headings inside your Quote blocks."
+msgstr "Los bloques de lista y cita ahora admiten bloques interiores, permitiendo composiciones más flexibles y complejas, como añadir encabezados dentro de bloques de citas."
+
+#: wp-admin/about.php:173
+msgid "Compose richer lists and quotes with inner blocks"
+msgstr "Crea listas y citas más complejas con bloques interiores"
+
+#: wp-admin/about.php:167
+msgid "Various blocks have improved placeholders that reflect customization options to help you design your site and its content. For example, the Image block placeholder displays custom borders and duotone filters even before selecting an image."
+msgstr "Varios bloques tienen marcadores de posición mejorados con opciones de personalización que te ayudarán a diseñar tu sitio y su contenido. Por ejemplo, el marcador de posición del bloque de imagen muestra bordes personalizados y filtros de duotono incluso antes de seleccionar una imagen."
+
+#: wp-admin/about.php:166
+msgid "Improved block placeholders"
+msgstr "Mejoras en los marcadores de posición de los bloques"
+
+#: wp-admin/about.php:157
+msgid "When locking blocks, a new toggle lets you apply your lock settings to all the blocks in a containing block like the group, cover, and column blocks."
+msgstr "Al bloquear los bloques, un nuevo conmutador permite aplicar tus ajustes de bloqueo a todos los bloques de un bloque contenedor, como los bloques de grupo, fondo y columnas."
+
+#: wp-admin/about.php:156
+msgid "One-click lock settings for all inner blocks"
+msgstr "Ajustes de bloque en un clic para todos los bloques interiores"
+
+#: wp-admin/about.php:150
+msgid "A cleaner, better-organized display helps you easily view and manage important post and page settings, especially the template picker and scheduler."
+msgstr "Una pantalla más limpia y mejor organizada te ayuda a ver y gestionar fácilmente los ajustes importantes de las entradas y páginas, especialmente el selector de plantillas y el programador."
+
+#: wp-admin/about.php:149
+msgid "Improved layout and visualization of document settings"
+msgstr "Mejoras en los ajustes de diseño y visualización del documento"
+
+#. translators: %s: Link to navigation block fallback dev note.
+#: wp-admin/about.php:131
+msgid "<a href=\"%s\">New fallback options</a> in the navigation block mean you can edit the menu that’s open; no searching needed. Plus, the controls for choosing and working on menus have their own place in the block settings. The mobile menu system also gets an upgrade with new features, including different icon options, to make the menu yours."
+msgstr "<a href=\"%s\">Las nuevas opciones de recuperación</a> en el bloque de navegación permiten editar el menú abierto, sin necesidad de buscarlo. Además, los controles para elegir y trabajar en los menús tienen su propio lugar en los ajustes del bloque. El sistema de menús para móviles también se actualiza con nuevas características, incluyendo diferentes opciones de iconos, para hacer que el menú sea tuyo."
+
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/about.php:126
 msgid "Menus just got easier to create and manage"
 msgstr "Los menús son ahora más fáciles de crear y gestionar"
@@ -348,7 +562,11 @@ msgstr "Los elementos recomendados se consideran beneficiosos para su sitio, aun
 msgid "Critical issues are items that may have a high impact on your sites performance or security, and resolving these issues should be prioritized."
 msgstr "Los problemas críticos son elementos que podrían tener un gran impacto en el rendimiento o seguridad de tus sitios, y debería darse prioridad a solucionar estos problemas."
 
+<<<<<<< HEAD
 #: wp-admin/site-editor.php:23 wp-admin/site-editor.php:28
+=======
+#: wp-admin/site-editor.php:28
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "The theme you are currently using is not compatible with the Site Editor."
 msgstr "El tema que estás usando en este momento no es compatible con el editor del sitio."
 
@@ -951,6 +1169,13 @@ msgstr "En la pestaña de estado, puedes ver información crítica sobre la conf
 msgid "This screen allows you to obtain a health diagnosis of your site, and displays an overall rating of the status of your installation."
 msgstr "Esta pantalla te permite obtener un diagnóstico de la salud de tu sitio y muestra una valoración general del estado de tu instalación."
 
+<<<<<<< HEAD
+=======
+#: wp-admin/site-editor.php:23
+msgid "The theme you are currently using is not compatible with Full Site Editing."
+msgstr "El tema que estás usando en este momento no es compatible con la edición completa del sitio."
+
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/options-privacy.php:44
 msgid "<a href=\"https://wordpress.org/support/article/settings-privacy-screen/\">Documentation on Privacy Settings</a>"
 msgstr "<a href=\"https://wordpress.org/support/article/settings-privacy-screen/\">Documentación sobre los ajustes de privacidad</a>"
@@ -1034,7 +1259,11 @@ msgstr "Parece que tu web usa la identificación básica, que actualmente no es 
 msgid "%1$s &#8220;%2$s&#8221;"
 msgstr "%1$s «%2$s»"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:339
+=======
+#: wp-admin/includes/theme.php:338
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Template Editing"
 msgstr "Edición de plantillas"
 
@@ -1946,7 +2175,11 @@ msgstr "Tipo de entorno"
 msgid "Auto-updates are only available for plugins recognized by WordPress.org, or that include a compatible update system."
 msgstr "Las actualizaciones automáticas solo están disponibles para los plugins reconocidos por WordPress.org o que incluyan un sistema de actualización compatible."
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:875 wp-admin/themes.php:1036
+=======
+#: wp-admin/includes/theme.php:874 wp-admin/themes.php:1036
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Update Incompatible"
 msgstr "Actualización incompatible"
 
@@ -2621,13 +2854,25 @@ msgstr "Versión necesaria de WordPress"
 msgid "Theme name"
 msgstr "Nombre del tema"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1064 wp-admin/theme-install.php:432
+=======
+#: wp-admin/includes/theme.php:1063 wp-admin/theme-install.php:432
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:464
 msgctxt "theme"
 msgid "Cannot Install"
 msgstr "No se ha podido instalar"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:325
+=======
+#: wp-admin/includes/theme.php:334
+msgid "Full Site Editing"
+msgstr "Edición completa del sitio"
+
+#: wp-admin/includes/theme.php:324
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Block Editor Patterns"
 msgstr "Patrones del editor de bloques"
 
@@ -2687,11 +2932,19 @@ msgstr "Límite de memoria PHP (solo para las pantallas de administración)"
 msgid "Is this site discouraging search engines?"
 msgstr "¿Está el sitio disuadiendo a los motores de búsqueda?"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:351
 msgid "Wide Blocks"
 msgstr "Bloques anchos"
 
 #: wp-admin/includes/theme.php:326
+=======
+#: wp-admin/includes/theme.php:350
+msgid "Wide Blocks"
+msgstr "Bloques anchos"
+
+#: wp-admin/includes/theme.php:325
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Block Editor Styles"
 msgstr "Estilos del editor de bloques"
 
@@ -3746,7 +3999,11 @@ msgstr "Hay disponible una nueva versión de %1$s, pero no funciona con tu versi
 msgid "This plugin failed to load properly and is paused during recovery mode."
 msgstr "Este plugin no se ha cargado correctamente y está en pausa durante el modo de recuperación."
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1209
+=======
+#: wp-admin/includes/theme.php:1208
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Go to the Themes screen"
 msgstr "Ir a la pantalla de temas"
 
@@ -4670,7 +4927,11 @@ msgid "Must Use Plugins"
 msgstr "Plugins imprescindibles"
 
 #: wp-admin/includes/class-wp-debug-data.php:153
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:835 wp-admin/themes.php:958
+=======
+#: wp-admin/includes/theme.php:834 wp-admin/themes.php:958
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/includes/class-wp-ms-themes-list-table.php:917
 msgid "Active Theme"
 msgstr "Tema activo"
@@ -4940,6 +5201,7 @@ msgctxt "plugin"
 msgid "Resume %s"
 msgstr "Reactivar %s"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1207
 msgid "You can find more details and make changes on the Themes screen."
 msgstr "Puedes encontrar más detalles y hacer cambios en la pantalla de temas."
@@ -4949,6 +5211,17 @@ msgid "One or more themes failed to load properly."
 msgstr "Uno o más temas no se han cargado correctamente."
 
 #: wp-admin/includes/theme.php:1177
+=======
+#: wp-admin/includes/theme.php:1206
+msgid "You can find more details and make changes on the Themes screen."
+msgstr "Puedes encontrar más detalles y hacer cambios en la pantalla de temas."
+
+#: wp-admin/includes/theme.php:1205
+msgid "One or more themes failed to load properly."
+msgstr "Uno o más temas no se han cargado correctamente."
+
+#: wp-admin/includes/theme.php:1176
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Could not resume the theme."
 msgstr "No se ha podido reactivar el tema."
 
@@ -6379,7 +6652,11 @@ msgid "Select one or more Theme features to filter by"
 msgstr "Elige una o varias características de temas por las que filtrar"
 
 #. translators: %s: Number of ratings.
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:858 wp-admin/theme-install.php:489
+=======
+#: wp-admin/includes/theme.php:857 wp-admin/theme-install.php:489
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "(%s ratings)"
 msgstr "(%s valoraciones)"
 
@@ -6556,7 +6833,11 @@ msgstr "%s ha sido borrado correctamente."
 msgid "The search for installed plugins will search for terms in their name, description, or author."
 msgstr "La búsqueda en los plugins instalados buscará términos en su nombre, descripción o autor."
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:330
+=======
+#: wp-admin/includes/theme.php:329
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Custom Logo"
 msgstr "Logotipo personalizado"
 
@@ -6688,6 +6969,7 @@ msgstr "Por favor, actualiza WordPress ahora"
 msgid "<a href=\"%1$s\">WordPress %2$s</a> is available! <a href=\"%3$s\" aria-label=\"%4$s\">Please update now</a>."
 msgstr "¡Ya está disponible <a href=\"%1$s\">WordPress %2$s</a>! <a href=\"%3$s\" aria-label=\"%4$s\">Por favor, actualiza ahora</a>."
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:320
 msgid "Portfolio"
 msgstr "Porfolio"
@@ -6725,6 +7007,45 @@ msgid "Footer Widgets"
 msgstr "Widgets del pie de página"
 
 #: wp-admin/includes/theme.php:344
+=======
+#: wp-admin/includes/theme.php:319
+msgid "Portfolio"
+msgstr "Porfolio"
+
+#: wp-admin/includes/theme.php:318
+msgid "Photography"
+msgstr "Fotografía"
+
+#: wp-admin/includes/dashboard.php:1314 wp-admin/includes/theme.php:317
+msgid "News"
+msgstr "Noticias"
+
+#: wp-admin/includes/theme.php:315
+msgid "Food & Drink"
+msgstr "Comida y bebida"
+
+#: wp-admin/includes/theme.php:314
+msgid "Entertainment"
+msgstr "Entretenimiento"
+
+#: wp-admin/includes/theme.php:313
+msgid "Education"
+msgstr "Educación"
+
+#: wp-admin/includes/theme.php:312
+msgid "E-Commerce"
+msgstr "Comercio electrónico"
+
+#: wp-admin/includes/theme.php:311
+msgid "Blog"
+msgstr "Blog"
+
+#: wp-admin/includes/theme.php:333
+msgid "Footer Widgets"
+msgstr "Widgets del pie de página"
+
+#: wp-admin/includes/theme.php:343
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Grid Layout"
 msgstr "Diseño en cuadrícula"
 
@@ -8187,7 +8508,11 @@ msgstr ""
 "###SITENAME###\n"
 "###SITEURL###"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:822 wp-admin/themes.php:945
+=======
+#: wp-admin/includes/theme.php:821 wp-admin/themes.php:945
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Close details dialog"
 msgstr "Cerrar ventana con los detalles"
 
@@ -8785,12 +9110,20 @@ msgctxt "theme"
 msgid "Active:"
 msgstr "Activo:"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:324
+=======
+#: wp-admin/includes/theme.php:323
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Accessibility Ready"
 msgstr "Listo para accesibilidad"
 
 #. translators: %s: Theme name.
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:949 wp-admin/themes.php:1115
+=======
+#: wp-admin/includes/theme.php:948 wp-admin/themes.php:1115
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "This is a child theme of %s."
 msgstr "Este es un tema hijo de %s."
 
@@ -8884,6 +9217,7 @@ msgstr "Los siguientes plugins se han actualizado correctamente:"
 msgid "Add Widget"
 msgstr "Añadir widget"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:821 wp-admin/themes.php:944
 msgid "Show next theme"
 msgstr "Mostrar el tema siguiente"
@@ -8893,6 +9227,17 @@ msgid "Show previous theme"
 msgstr "Mostrar tema anterior"
 
 #: wp-admin/includes/theme.php:870 wp-admin/themes.php:1031
+=======
+#: wp-admin/includes/theme.php:820 wp-admin/themes.php:944
+msgid "Show next theme"
+msgstr "Mostrar el tema siguiente"
+
+#: wp-admin/includes/theme.php:819 wp-admin/themes.php:943
+msgid "Show previous theme"
+msgstr "Mostrar tema anterior"
+
+#: wp-admin/includes/theme.php:869 wp-admin/themes.php:1031
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Update Available"
 msgstr "Actualización disponible"
 
@@ -11228,7 +11573,11 @@ msgstr "Borrar sitio"
 
 #. translators: %s: Plugin name.
 #: wp-admin/includes/class-wp-theme-install-list-table.php:493
+<<<<<<< HEAD
 #: wp-admin/includes/deprecated.php:1387 wp-admin/includes/theme.php:1061
+=======
+#: wp-admin/includes/deprecated.php:1387 wp-admin/includes/theme.php:1060
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/theme-install.php:425 wp-admin/theme-install.php:462
 #: wp-admin/includes/network.php:374
 msgid "Install"
@@ -11335,6 +11684,7 @@ msgstr ""
 "Por favor, haga clic en el siguiente enlace para activar su cuenta de usuario:\n"
 "%%s"
 
+<<<<<<< HEAD
 #: wp-admin/includes/meta-boxes.php:495 wp-admin/includes/theme.php:337
 msgid "Post Formats"
 msgstr "Formatos de entradas"
@@ -11348,6 +11698,21 @@ msgid "Featured Images"
 msgstr "Imágenes destacadas"
 
 #: wp-admin/includes/theme.php:332
+=======
+#: wp-admin/includes/meta-boxes.php:495 wp-admin/includes/theme.php:336
+msgid "Post Formats"
+msgstr "Formatos de entradas"
+
+#: wp-admin/includes/theme.php:335
+msgid "Full Width Template"
+msgstr "Plantilla de anchura completa"
+
+#: wp-admin/includes/theme.php:332
+msgid "Featured Images"
+msgstr "Imágenes destacadas"
+
+#: wp-admin/includes/theme.php:331
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Featured Image Header"
 msgstr "Imagen de cabecera"
 
@@ -11775,7 +12140,11 @@ msgstr "El proceso de actualización está comenzando. Este proceso puede tardar
 msgid "Apply Filters"
 msgstr "Aplicar filtros"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:331
+=======
+#: wp-admin/includes/theme.php:330
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Editor Style"
 msgstr "Estilo del editor"
 
@@ -13150,7 +13519,11 @@ msgstr "Elige el tema a editar:"
 msgid "Edit Themes"
 msgstr "Editar temas"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:1029 wp-admin/themes.php:1121
+=======
+#: wp-admin/includes/theme.php:1028 wp-admin/themes.php:1121
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Tags:"
 msgstr "Etiquetas:"
 
@@ -13967,7 +14340,11 @@ msgid "This theme is already installed."
 msgstr "Este tema ya está instalado."
 
 #. translators: %s: Theme version.
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:840 wp-admin/theme-install.php:500
+=======
+#: wp-admin/includes/theme.php:839 wp-admin/theme-install.php:500
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 #: wp-admin/themes.php:963
 msgid "Version: %s"
 msgstr "Versión: %s"
@@ -13980,6 +14357,7 @@ msgstr "Si tienes un tema en formato .zip, puedes instalarlo o actualizarlo subi
 msgid "Find Themes"
 msgstr "Buscar temas"
 
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:317
 msgid "Holiday"
 msgstr "Vacaciones"
@@ -14025,6 +14403,53 @@ msgid "Two Columns"
 msgstr "Dos columnas"
 
 #: wp-admin/includes/theme.php:345
+=======
+#: wp-admin/includes/theme.php:316
+msgid "Holiday"
+msgstr "Vacaciones"
+
+#: wp-admin/includes/theme.php:310 wp-admin/includes/theme.php:380
+msgid "Subject"
+msgstr "Temática"
+
+#: wp-admin/includes/theme.php:337
+msgid "Sticky Post"
+msgstr "Entrada fija"
+
+#: wp-admin/includes/theme.php:339
+msgid "Theme Options"
+msgstr "Opciones del tema"
+
+#: wp-admin/includes/theme.php:327
+msgid "Custom Colors"
+msgstr "Colores personalizados"
+
+#: wp-admin/includes/theme.php:322 wp-admin/includes/theme.php:379
+msgid "Features"
+msgstr "Características"
+
+#: wp-admin/includes/theme.php:349
+msgid "Right Sidebar"
+msgstr "Barra lateral derecha"
+
+#: wp-admin/includes/theme.php:348
+msgid "Left Sidebar"
+msgstr "Barra lateral izquierda"
+
+#: wp-admin/includes/theme.php:347
+msgid "Four Columns"
+msgstr "Cuatro columnas"
+
+#: wp-admin/includes/theme.php:346
+msgid "Three Columns"
+msgstr "Tres columnas"
+
+#: wp-admin/includes/theme.php:345
+msgid "Two Columns"
+msgstr "Dos columnas"
+
+#: wp-admin/includes/theme.php:344
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "One Column"
 msgstr "Una columna"
 
@@ -15679,7 +16104,11 @@ msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "Cabezera actualizada. <a href=\"%s\">Visita tu sitio</a> para ver los cambios."
 
 #: wp-admin/includes/class-custom-image-header.php:504
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:329
+=======
+#: wp-admin/includes/theme.php:328
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Custom Header"
 msgstr "Cabecera personalizada"
 
@@ -15699,7 +16128,11 @@ msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it look
 msgstr "Fondo actualizado. <a href=\"%s\">Visita tu sitio</a> para ver cómo queda."
 
 #: wp-admin/includes/class-custom-background.php:233
+<<<<<<< HEAD
 #: wp-admin/includes/theme.php:327
+=======
+#: wp-admin/includes/theme.php:326
+>>>>>>> a61834fa8b99d6bb07b0030b1bdd1f28a55a49dd
 msgid "Custom Background"
 msgstr "Fondo personalizado"
 
