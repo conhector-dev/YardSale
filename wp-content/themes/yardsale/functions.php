@@ -40,14 +40,12 @@ function chtk_add_sidebar(){
         array(
             "name" => "Pie de Página",
             "id" => "pie-pagina",
-            "before-widget" => false,
-            "after-widget" => false,
         )
     );
 };
 add_action("widgets_init","chtk_add_sidebar");
 
-/*function chtk_add_custom_post_type() {
+function chtk_add_custom_post_type() {
 
     $labels = array(
         'name' => 'Producto',
@@ -57,25 +55,24 @@ add_action("widgets_init","chtk_add_sidebar");
     );
 
     $args = array(
-		'description'           => __( 'Post Type Description', 'text_domain' ),
-		'labels'                => $labels,
-		'supports'              => false,
-		'taxonomies'            => array( 'category', 'post_tag' ),
-		'hierarchical'          => false,
+        'labels'                => $labels,
+		'description'           => 'Productos para listar en un catalogo.',
 		'public'                => true,
-		'show_ui'               => true,
-		'show_in_menu'          => true,
-		'menu_position'         => 5,
-		'show_in_admin_bar'     => true,
-		'show_in_nav_menus'     => true,
-		'can_export'            => true,
-		'has_archive'           => true,
-		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
-		'capability_type'       => 'page',
-    )
+		'show_in_menu'          => true,
+		'query_var'             => true,
+		'rewrite'               => array('slug' => 'producto'),
+		'capability_type'       => 'post',
+		'has_archive'           => true,
+		'hierarchical'          => false,
+		'menu_position'         => 5,
+		'supports'              => array('title','author','thumbnail','editor'),
+		'taxonomies'            => array('category'),
+		'show_in_rest'          => true,
+		'menu_icon'             => 'dashicons-cart',
+    );
 
-    //register_post_type("producto","args")
+    register_post_type("producto", $args);
 };
-add_action("init","chtk_add_custom_post_type");*/
+add_action("init","chtk_add_custom_post_type");
 
