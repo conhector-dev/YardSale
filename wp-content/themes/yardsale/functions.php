@@ -76,3 +76,11 @@ function chtk_add_custom_post_type() {
 };
 add_action("init","chtk_add_custom_post_type");
 
+function chtk_add_to_signin_menu() {
+
+    $current_user = wp_get_current_user();
+    $msg = is_user_logged_in()? $current_user->user_email : "Sign in" ;
+    echo $msg;
+
+} 
+add_action('chtk_signin','chtk_add_to_signin_menu');
