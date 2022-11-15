@@ -47,3 +47,35 @@ function chtk_add_sidebar(){
 };
 add_action("widgets_init","chtk_add_sidebar");
 
+/*function chtk_add_custom_post_type() {
+
+    $labels = array(
+        'name' => 'Producto',
+        'singular_name' => 'producto',
+        'all_items' => 'Todos los productos',
+
+    );
+
+    $args = array(
+		'description'           => __( 'Post Type Description', 'text_domain' ),
+		'labels'                => $labels,
+		'supports'              => false,
+		'taxonomies'            => array( 'category', 'post_tag' ),
+		'hierarchical'          => false,
+		'public'                => true,
+		'show_ui'               => true,
+		'show_in_menu'          => true,
+		'menu_position'         => 5,
+		'show_in_admin_bar'     => true,
+		'show_in_nav_menus'     => true,
+		'can_export'            => true,
+		'has_archive'           => true,
+		'exclude_from_search'   => false,
+		'publicly_queryable'    => true,
+		'capability_type'       => 'page',
+    )
+
+    //register_post_type("producto","args")
+};
+add_action("init","chtk_add_custom_post_type");*/
+
