@@ -23,13 +23,11 @@
     <?php if($productos->have_posts()) { ?>
         <?php while ($productos->have_posts()) { $productos->the_post(); ?>
             <div class="productos__card">
-                <figure>
-                    <img src="<?php echo get_template_directory_uri();?>/assets/img/prod_1.png" alt="producto 1">
-                </figure>
+                <?php the_post_thumbnail();?>
                 <div class="producto__caption">
                     <div class="productos__desc">
-                        <a class="producto__link" href="#">
-                            <h4 class="productos__titulo">Retro refrigerato</h4>
+                        <a class="producto__link" href="<?php the_permalink();?>">
+                            <h4 class="productos__titulo"><?php the_title();?></h4>
                         </a>
                     </div>
                 </div>
