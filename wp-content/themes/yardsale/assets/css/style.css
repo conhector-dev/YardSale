@@ -8,6 +8,10 @@ img {
   height: auto;
 }
 
+footer li {
+  list-style-type: none;
+}
+
 .encabezado {
   -webkit-box-shadow: 1px 1px 10px #C7C7C7;
           box-shadow: 1px 1px 10px #C7C7C7;
